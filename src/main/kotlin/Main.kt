@@ -9,10 +9,13 @@ fun main(args: Array<String>) {
     circulo = readLine()!!.toInt()
 
     raio = circulo / 2
+    raio.toDouble()
 
     area = pi * (raio * raio)
+    area.toDouble()
 
     perimetro = 2 * pi * raio
+    perimetro.toDouble()
 
     println("A area do seu circulo é: $area e o perimetro do seu circulo é: $perimetro")
 
